@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/sms/!svn/ver/55/trunk/Mms/tests
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sms/!svn/ver/24/trunk/Mms/tests/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/55/trunk/Mms/tests/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sms/!svn/ver/14/trunk/Mms/tests/.project
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sms/!svn/ver/14/trunk/Mms/tests/Android.mk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/14/trunk/Mms/tests/AndroidManifest.xml
+END

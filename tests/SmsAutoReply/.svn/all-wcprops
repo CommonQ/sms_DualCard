@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sms/!svn/ver/55/trunk/Mms/tests/SmsAutoReply
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/14/trunk/Mms/tests/SmsAutoReply/Android.mk
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/14/trunk/Mms/tests/SmsAutoReply/AndroidManifest.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/24/trunk/Mms/tests/SmsAutoReply/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/55/trunk/Mms/tests/SmsAutoReply/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sms/!svn/ver/14/trunk/Mms/tests/SmsAutoReply/.project
+END

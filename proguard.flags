@@ -1,0 +1,3 @@
+ -keep class edu.bupt.mms.ui.MmsThumbnailPresenter {
+*;
+}

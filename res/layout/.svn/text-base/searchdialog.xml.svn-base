@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_From"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:text="@string/traditional_search_from"
+        android:textSize="20sp" />
+    <!-- 010
+         android:text="start"  
+         android:textSize="15px"    -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <DatePicker
+            android:id="@+id/datePickerFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:calendarViewShown="false" />
+        <!-- 010    
+        modified 
+        android:layout_height="wrap_content"  
+        ADDED:
+        android:calendarViewShown="false" 去日历
+        -->
+
+        <TimePicker
+            android:id="@+id/timePickerFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_To"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="@string/traditional_search_to"
+        android:textSize="20sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <DatePicker
+            android:id="@+id/datePickerTo"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:calendarViewShown="false" />
+        <!--
+        010
+        android:layout_marginBottom="20dip"
+        -->
+
+        <TimePicker
+            android:id="@+id/timePickerTo"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp" />
+    </LinearLayout>
+
+</LinearLayout>

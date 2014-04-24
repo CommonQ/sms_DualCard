@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sms/!svn/ver/14/trunk/Mms/apptests/res/layout
+END
+sms_send_intent_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/14/trunk/Mms/apptests/res/layout/sms_send_intent_test.xml
+END

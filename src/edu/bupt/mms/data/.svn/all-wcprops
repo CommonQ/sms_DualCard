@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/217/trunk/Mms/src/edu/bupt/mms/data
+END
+RecipientIdCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/data/RecipientIdCache.java
+END
+WorkingMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/214/trunk/Mms/src/edu/bupt/mms/data/WorkingMessage.java
+END
+ContactList.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/190/trunk/Mms/src/edu/bupt/mms/data/ContactList.java
+END
+Conversation.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/217/trunk/Mms/src/edu/bupt/mms/data/Conversation.java
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/data/Contact.java
+END

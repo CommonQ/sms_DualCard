@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/sms/!svn/ver/14/trunk/Mms/lib
+END
+android-common_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/lib/android-common_intermediates.jar
+END
+jsr305_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/14/trunk/Mms/lib/jsr305_intermediates.jar
+END
+android-common-chips_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/lib/android-common-chips_intermediates.jar
+END
+content_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/14/trunk/Mms/lib/content_intermediates.jar
+END
+com.android.phone.common_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/14/trunk/Mms/lib/com.android.phone.common_intermediates.jar
+END
+com.android.location.provider_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/14/trunk/Mms/lib/com.android.location.provider_intermediates.jar
+END
+framework_ext_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/14/trunk/Mms/lib/framework_ext_intermediates.jar
+END
+framework_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/14/trunk/Mms/lib/framework_intermediates.jar
+END
+ext_intermediates.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/14/trunk/Mms/lib/ext_intermediates.jar
+END

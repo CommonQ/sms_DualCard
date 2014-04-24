@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    
+    
+    
+    
+    <declare-styleable name="Switch">
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="thumbs" format="reference" />
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="tracks" format="reference" />
+        <!-- Text to use when the switch is in the checked/"on" state. -->
+        <attr name="texton" format="reference"/>
+        <!-- Text to use when the switch is in the unchecked/"off" state. -->
+        <attr name="textoff" format="reference"/>
+        <!-- Amount of padding on either side of text within the switch thumb. -->
+        <attr name="thumbtextpadding" format="dimension" />
+        <!-- TextAppearance style for text displayed on the switch thumb. -->
+        <attr name="switchtextappearance" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchminwidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchpadding" format="dimension" />
+    </declare-styleable>
+    
+    
+    
+     <declare-styleable name="TextAppearance">
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+    
+    
+    
+    <declare-styleable name="RecipientEditTextView">
+        <attr name="invalidChipBackground" format="reference" />
+        <attr name="chipBackground" format="reference" />
+        <attr name="chipBackgroundPressed" format="reference" />
+        <attr name="chipDelete" format="reference" />
+        <attr name="chipAlternatesLayout" format="reference" />
+        <attr name="chipPadding" format="reference" />
+        <attr name="chipHeight" format="reference" />
+        <attr name="chipFontSize" format="reference" />
+    </declare-styleable>
+</resources>

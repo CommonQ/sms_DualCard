@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/sms/!svn/ver/216/trunk/Mms/res/layout
+END
+activity_delete_phr_temp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_delete_phr_temp.xml
+END
+activity_sim_manage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/173/trunk/Mms/res/layout/activity_sim_manage.xml
+END
+listitems.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/127/trunk/Mms/res/layout/listitems.xml
+END
+fragment_card_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/fragment_card_detail.xml
+END
+activity_card_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_card_list.xml
+END
+searchbody.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/89/trunk/Mms/res/layout/searchbody.xml
+END
+widget.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/widget.xml
+END
+chips_alternate_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/chips_alternate_item.xml
+END
+sim_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/175/trunk/Mms/res/layout/sim_list.xml
+END
+toast_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sms/!svn/ver/42/trunk/Mms/res/layout/toast_layout.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/20/trunk/Mms/res/layout/list_item.xml
+END
+copy_chip_dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/copy_chip_dialog_layout.xml
+END
+activity_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/92/trunk/Mms/res/layout/activity_test.xml
+END
+phrase_delete_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/phrase_delete_template.xml
+END
+listview_fixed_headerandfooter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/149/trunk/Mms/res/layout/listview_fixed_headerandfooter.xml
+END
+delete_thread_dialog_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/delete_thread_dialog_view.xml
+END
+detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sms/!svn/ver/20/trunk/Mms/res/layout/detail.xml
+END
+setting_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sms/!svn/ver/171/trunk/Mms/res/layout/setting_tab.xml
+END
+conversation_list_item1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/20/trunk/Mms/res/layout/conversation_list_item1.xml
+END
+activity_agenda_multi_select.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/42/trunk/Mms/res/layout/activity_agenda_multi_select.xml
+END
+conversation_list_screen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/99/trunk/Mms/res/layout/conversation_list_screen.xml
+END
+message_list_item_send.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/190/trunk/Mms/res/layout/message_list_item_send.xml
+END
+recipients_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/143/trunk/Mms/res/layout/recipients_editor.xml
+END
+widget_conversation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/widget_conversation.xml
+END
+mms_chips_recipient_dropdown_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/mms_chips_recipient_dropdown_item.xml
+END
+more_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/more_item.xml
+END
+footer_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/footer_delete.xml
+END
+search_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/216/trunk/Mms/res/layout/search_activity.xml
+END
+confirm_rate_limit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/confirm_rate_limit_activity.xml
+END
+activity_preference_sim1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/171/trunk/Mms/res/layout/activity_preference_sim1.xml
+END
+activity_preference_sim2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/171/trunk/Mms/res/layout/activity_preference_sim2.xml
+END
+slideshow_edit_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/slideshow_edit_item.xml
+END
+activity_text_past.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/26/trunk/Mms/res/layout/activity_text_past.xml
+END
+conversation_list_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/conversation_list_actionbar.xml
+END
+activity_multi_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/149/trunk/Mms/res/layout/activity_multi_delete.xml
+END
+fragment_drop_down_dummy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/fragment_drop_down_dummy.xml
+END
+activity_phrase_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/activity_phrase_template.xml
+END
+delivery_report_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/delivery_report_activity.xml
+END
+preview_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/206/trunk/Mms/res/layout/preview_list_item.xml
+END
+playing_audio_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/playing_audio_info.xml
+END
+fragment_seperate_card_dummy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/fragment_seperate_card_dummy.xml
+END
+activity_delete_phr_temps.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_delete_phr_temps.xml
+END
+test_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/191/trunk/Mms/res/layout/test_actionbar.xml
+END
+slideshow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/slideshow.xml
+END
+test_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/203/trunk/Mms/res/layout/test_title_bar.xml
+END
+smiley_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/smiley_menu_item.xml
+END
+activity_drop_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_drop_down.xml
+END
+multi_delete_item_recv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/200/trunk/Mms/res/layout/multi_delete_item_recv.xml
+END
+edit_slide_duration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/edit_slide_duration.xml
+END
+traditional.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/93/trunk/Mms/res/layout/traditional.xml
+END
+mms_downloading_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/164/trunk/Mms/res/layout/mms_downloading_view.xml
+END
+test_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/23/trunk/Mms/res/layout/test_layout.xml
+END
+activity_seperate_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_seperate_card.xml
+END
+widget_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/widget_loading.xml
+END
+edit_slide_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/edit_slide_activity.xml
+END
+activity_card_twopane.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_card_twopane.xml
+END
+search_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/search_item.xml
+END
+conversation_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/85/trunk/Mms/res/layout/conversation_list_item.xml
+END
+image_attachment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/image_attachment_view.xml
+END
+searchdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/137/trunk/Mms/res/layout/searchdialog.xml
+END
+activity_manage_seperate_sim2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sms/!svn/ver/176/trunk/Mms/res/layout/activity_manage_seperate_sim2.xml
+END
+delivery_report_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/delivery_report_header.xml
+END
+recent_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/19/trunk/Mms/res/layout/recent_list_item.xml
+END
+activity_preview_contacts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/181/trunk/Mms/res/layout/activity_preview_contacts.xml
+END
+icon_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/icon_list_item.xml
+END
+mms_vcard_layout_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/126/trunk/Mms/res/layout/mms_vcard_layout_view.xml
+END
+audio_attachment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/audio_attachment_view.xml
+END
+search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/89/trunk/Mms/res/layout/search_result.xml
+END
+slideshow_attachment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/slideshow_attachment_view.xml
+END
+number_picker_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/number_picker_dialog.xml
+END
+activity_manage_seperate_sim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/175/trunk/Mms/res/layout/activity_manage_seperate_sim.xml
+END
+listitem_multiple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/181/trunk/Mms/res/layout/listitem_multiple.xml
+END
+video_attachment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/video_attachment_view.xml
+END
+setting_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/42/trunk/Mms/res/layout/setting_layout.xml
+END
+message_list_item_recv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/202/trunk/Mms/res/layout/message_list_item_recv.xml
+END
+agendamultideleteadapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/42/trunk/Mms/res/layout/agendamultideleteadapter.xml
+END
+edit_dialog_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/edit_dialog_item.xml
+END
+mms_layout_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sms/!svn/ver/125/trunk/Mms/res/layout/mms_layout_view.xml
+END
+compose_message_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/191/trunk/Mms/res/layout/compose_message_activity.xml
+END
+delivery_report_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/delivery_report_list_item.xml
+END
+phrase_template_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/phrase_template_item.xml
+END
+conversation_list_multi_select_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/conversation_list_multi_select_actionbar.xml
+END
+vcard_attachment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/102/trunk/Mms/res/layout/vcard_attachment_view.xml
+END
+chips_recipient_dropdown_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/14/trunk/Mms/res/layout/chips_recipient_dropdown_item.xml
+END
+multi_delete_item_send.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/149/trunk/Mms/res/layout/multi_delete_item_send.xml
+END
+activity_card_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/22/trunk/Mms/res/layout/activity_card_detail.xml
+END

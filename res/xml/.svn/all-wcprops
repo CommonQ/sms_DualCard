@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/sms/!svn/ver/186/trunk/Mms/res/xml
+END
+widget_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sms/!svn/ver/14/trunk/Mms/res/xml/widget_info.xml
+END
+mms_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/14/trunk/Mms/res/xml/mms_config.xml
+END
+preferences.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/186/trunk/Mms/res/xml/preferences.xml
+END
+searchable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/14/trunk/Mms/res/xml/searchable.xml
+END
+preferences_sim1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/172/trunk/Mms/res/xml/preferences_sim1.xml
+END
+preferences_sim2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/172/trunk/Mms/res/xml/preferences_sim2.xml
+END

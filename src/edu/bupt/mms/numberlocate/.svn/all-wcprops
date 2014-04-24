@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/216/trunk/Mms/src/edu/bupt/mms/numberlocate
+END
+Switch.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/42/trunk/Mms/src/edu/bupt/mms/numberlocate/Switch.java
+END
+PhoneStatusRecevier.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/141/trunk/Mms/src/edu/bupt/mms/numberlocate/PhoneStatusRecevier.java
+END
+MoveAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/42/trunk/Mms/src/edu/bupt/mms/numberlocate/MoveAnimation.java
+END
+NumberLocateDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sms/!svn/ver/154/trunk/Mms/src/edu/bupt/mms/numberlocate/NumberLocateDBHelper.java
+END
+NumberLocateProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sms/!svn/ver/216/trunk/Mms/src/edu/bupt/mms/numberlocate/NumberLocateProvider.java
+END
+NumberLocateSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/154/trunk/Mms/src/edu/bupt/mms/numberlocate/NumberLocateSetting.java
+END
+NumberLocate.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/141/trunk/Mms/src/edu/bupt/mms/numberlocate/NumberLocate.java
+END

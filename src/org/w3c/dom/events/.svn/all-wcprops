@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events/Event.java
+END
+EventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events/EventListener.java
+END
+EventTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events/EventTarget.java
+END
+DocumentEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events/DocumentEvent.java
+END
+EventException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/src/org/w3c/dom/events/EventException.java
+END

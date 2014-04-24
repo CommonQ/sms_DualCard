@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom
+END
+DocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/DocumentImpl.java
+END
+NodeListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/NodeListImpl.java
+END
+NodeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/NodeImpl.java
+END
+NamedNodeMapImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/NamedNodeMapImpl.java
+END
+ElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/ElementImpl.java
+END
+AttrImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/dom/AttrImpl.java
+END

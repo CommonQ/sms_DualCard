@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e9e8e7"
+    >   
+    
+     <!--010      
+    <LinearLayout 
+    android:id="@+id/listhead"
+    android:background="#e9e8e7"
+    android:focusable="true"   
+    android:focusableInTouchMode="true"
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    android:orientation="horizontal"
+
+     > 
+ added:   android:layout_marginTop="5dp"
+     android:layout_marginRight="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:orientation="vertical" --> 
+     
+    <!-- 010
+     <EditText
+         android:id="@+id/edittext"
+          android:layout_marginLeft="5dp"
+         android:layout_width="210dp"
+         android:layout_height="63dp" 
+        />
+     
+     
+     <ImageButton 
+         
+        android:id="@+id/button1"
+        android:src="@drawable/ic_menu_search_holo_dark"
+        android:layout_weight="1"
+        android:textSize="20dp" 
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+         
+         />
+      --> 
+     <!--  
+      <Button 
+         
+        android:id="@+id/button2"
+        android:text="编辑"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         
+         />
+         
+        -->
+     <!-- </LinearLayout>  -->
+      
+    
+     <LinearLayout 
+    android:id="@+id/listbox"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:background="#e9e8e7"
+    android:focusable="true"   
+    android:focusableInTouchMode="true"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:orientation="horizontal"
+
+     > 
+     <!-- 010
+     modified:
+     android:layout_height="50dp"
+     deleted:
+     android:layout_marginLeft="5dp"
+     android:layout_marginTop="5dp"
+     android:layout_marginRight="5dp" --> 
+    
+    <RadioGroup
+    android:id="@+id/radiogroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/button_in"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/box_in_selector"
+        android:checked="true"
+        android:button="@null"
+        android:gravity="center"/>
+
+         <!-- 010
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_height="fill_parent"
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/avatar"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/outgoing"
+                android:orientation="vertical" --> 
+
+
+         <RadioButton 
+         
+        android:id="@+id/button_out"
+        android:background="@drawable/box_out_selector"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:button="@null"
+        android:gravity="center" 
+        />
+             
+            <RadioButton 
+         
+        android:id="@+id/button_draft"
+        android:background="@drawable/box_draft_selector"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:button="@null"
+        android:gravity="center" 
+        />
+            <RadioButton 
+         
+        android:id="@+id/button_have_sent"
+        android:background="@drawable/box_sent_selector"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:button="@null"
+        android:gravity="center" 
+        />
+
+            
+             <RadioButton 
+         
+        android:id="@+id/button_rubbish"
+        android:background="@drawable/box_rubbish_selector"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:button="@null"
+        android:gravity="center" 
+        />
+
+
+</RadioGroup>      
+          
+         
+
+         
+    
+     </LinearLayout> 
+    
+     
+     <LinearLayout 
+    android:id="@+id/listText"
+   
+   android:layout_marginLeft="5dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#e9e8e7"
+    
+     >  
+     <TextView 
+          android:id="@+id/smsText"
+          android:layout_marginLeft="0dp"
+          
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         />
+       </LinearLayout> 
+         
+    <LinearLayout 
+    android:id="@+id/listcontent"
+   
+        android:layout_marginLeft="5dp"
+     android:layout_marginTop="5dp"
+     android:layout_marginRight="5dp"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#e9e8e7"
+    
+     >  
+    
+    <ListView android:id="@+id/sms_list"
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    
+    
+     </LinearLayout>  
+</LinearLayout>

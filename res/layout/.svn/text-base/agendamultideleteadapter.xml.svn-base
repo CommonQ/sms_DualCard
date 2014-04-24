@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/bluebt"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="16sp"
+                android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="4sp"
+        android:layout_toRightOf="@id/bluebt"
+        android:layout_marginTop="5sp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/item_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:textColor="#000000"
+            android:textSize="18sp" /> 
+
+        <TextView
+            android:id="@+id/item_tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_tv"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="3sp"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+         <TextView
+            android:id="@+id/item_yy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_tt"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="3sp"
+            android:textColor="#808080"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dip"
+        android:layout_marginTop="5sp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

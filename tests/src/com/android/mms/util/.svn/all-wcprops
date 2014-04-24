@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util
+END
+PhoneNumberComparisonTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/PhoneNumberComparisonTest.java
+END
+SendIntentTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/SendIntentTests.java
+END
+SmileyParserUnitTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/SmileyParserUnitTests.java
+END
+HttpUtilsTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/HttpUtilsTests.java
+END
+VerifyRecipientUnitTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/VerifyRecipientUnitTests.java
+END
+SmsReceiverServiceTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/util/SmsReceiverServiceTests.java
+END

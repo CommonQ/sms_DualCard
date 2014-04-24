@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2011 Google Inc.
+All Rights Reserved.
+-->
+<resources>
+    
+    
+      <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="normal_textsize">16sp</dimen>
+    <dimen name="bigger1_textsize">18sp</dimen>
+    <dimen name="bigger2_textsize">20sp</dimen>
+    <dimen name="bigger3_textsize">22sp</dimen>
+    
+    
+    
+    
+
+    <dimen name="message_item_avatar_on_right_text_indent">50dip</dimen>
+    <dimen name="message_item_text_padding_left_right">12dip</dimen>
+    <dimen name="message_item_text_padding_top">5dip</dimen>
+    <dimen name="avatar_width_height">64dip</dimen>
+    <dimen name="input_text_height">48dip</dimen>
+    <dimen name="input_text_height_adjusted">8dip</dimen>
+    <dimen name="mms_inline_attachment_size">178dip</dimen>
+    <dimen name="widget_margin_top">0dip</dimen>
+    <dimen name="widget_margin_left">0dip</dimen>
+    <dimen name="widget_margin_right">0dip</dimen>
+    <dimen name="widget_margin_bottom">0dip</dimen>
+    <dimen name="chip_padding">8dip</dimen>
+    <dimen name="chip_height">32dip</dimen>
+    <dimen name="chip_text_size">14sp</dimen>
+    <dimen name="line_spacing_extra">4dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

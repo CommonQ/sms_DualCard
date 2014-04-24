@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+     <style name="TextAppearanceSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="AppSwitch">
+        <item name="tracks">@drawable/switch_track_holo_dark</item>
+        <item name="thumbs">@drawable/switch_inner_holo_dark</item>
+        <item name="switchtextappearance">@style/TextAppearanceSmall</item>
+        <item name="texton">@string/capital_on</item>
+        <item name="textoff">@string/capital_off</item>
+        <item name="thumbtextpadding">12dip</item>
+        <item name="switchminwidth">96dip</item>
+        <item name="switchpadding">15dip</item>
+    </style>
+    
+    
+    
+     <style name="CalendarTheme.WithActionBar" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:actionBarStyle">@style/CalendarActionBarStyle</item>
+        <item name="android:endYear">2036</item>
+        <item name="android:startYear">1970</item>
+    </style>
+    <style name="CalendarActionBarStyle" parent="android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+<!-- parent="@android:style/Theme.Holo.Light.DarkActionBar" -->
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar" >
+    </style>
+<!-- parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" -->
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#333333</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    
+    
+    
+    
+    
+    
+     <style name="RecipientEditTextView" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:dropDownVerticalOffset">-6dip</item>
+        <item name="android:dropDownHorizontalOffset">-16dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+    </style>
+    
+    
+    
+    
+    
+    
+</resources>

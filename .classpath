@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/android-common_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/com.android.location.provider_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/com.android.phone.common_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/content_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/ext_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/framework_ext_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/framework_intermediates.jar"/>
+	<classpathentry kind="lib" path="lib/jsr305_intermediates.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

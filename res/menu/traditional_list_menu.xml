@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_select_cards"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="分卡显示信息"/>
+    
+    
+    
+    
+     <item
+        android:id="@+id/action_delete_unread_traditional"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="信息全部标已读"/>
+
+</menu>

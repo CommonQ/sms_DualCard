@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/124/trunk/Mms/src/edu/bupt/mms/util
+END
+RateController.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/RateController.java
+END
+BackgroundLoaderManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/BackgroundLoaderManager.java
+END
+ItemLoadedFuture.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/ItemLoadedFuture.java
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/DownloadManager.java
+END
+BlobCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/BlobCache.java
+END
+PhoneNumberFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/PhoneNumberFormatter.java
+END
+AddressUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/AddressUtils.java
+END
+SendingProgressTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/SendingProgressTokenManager.java
+END
+Recycler.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/124/trunk/Mms/src/edu/bupt/mms/util/Recycler.java
+END
+PduLoaderManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/PduLoaderManager.java
+END
+SimpleCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/SimpleCache.java
+END
+ThumbnailManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/ThumbnailManager.java
+END
+SmileyParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/SmileyParser.java
+END
+ItemLoadedCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/ItemLoadedCallback.java
+END
+DraftCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/DraftCache.java
+END
+ImageCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/ImageCacheService.java
+END
+NullItemLoadedFuture.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/NullItemLoadedFuture.java
+END
+CacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/src/edu/bupt/mms/util/CacheManager.java
+END

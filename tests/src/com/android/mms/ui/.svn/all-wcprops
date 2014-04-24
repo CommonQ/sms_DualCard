@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui
+END
+LongThreadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/LongThreadTest.java
+END
+MultiPartSmsTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/MultiPartSmsTests.java
+END
+ConversationListTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/ConversationListTests.java
+END
+ComposeMessageActivityTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/ComposeMessageActivityTests.java
+END
+SmsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/SmsTest.java
+END
+SmsStressTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/ui/SmsStressTest.java
+END

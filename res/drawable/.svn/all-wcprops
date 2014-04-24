@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable
+END
+attachment_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/attachment_selector.xml
+END
+listitem_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/listitem_background.xml
+END
+send_button2_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sms/!svn/ver/31/trunk/Mms/res/drawable/send_button2_selector.xml
+END
+box_rubbish_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable/box_rubbish_selector.xml
+END
+switch_track_holo_dark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/42/trunk/Mms/res/drawable/switch_track_holo_dark.xml
+END
+box_draft_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable/box_draft_selector.xml
+END
+widget_conversation_read_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/widget_conversation_read_selector.xml
+END
+setting_item_bg_new_30x18.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/42/trunk/Mms/res/drawable/setting_item_bg_new_30x18.9.png
+END
+bg_separator_inset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/bg_separator_inset.xml
+END
+widget_conversation_unread_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/widget_conversation_unread_selector.xml
+END
+switch_inner_holo_dark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/42/trunk/Mms/res/drawable/switch_inner_holo_dark.xml
+END
+box_in_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable/box_in_selector.xml
+END
+box_out_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable/box_out_selector.xml
+END
+box_sent_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/78/trunk/Mms/res/drawable/box_sent_selector.xml
+END
+list_item_font_primary.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/list_item_font_primary.xml
+END
+conversation_item_background_read.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/conversation_item_background_read.xml
+END
+send_button_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/31/trunk/Mms/res/drawable/send_button_selector.xml
+END
+conversation_item_background_unread.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/conversation_item_background_unread.xml
+END
+list_item_font_secondary.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/14/trunk/Mms/res/drawable/list_item_font_secondary.xml
+END

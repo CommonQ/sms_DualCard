@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms
+END
+SmsTestRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/SmsTestRunner.java
+END
+MmsStability.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/MmsStability.java
+END
+RecyclerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/RecyclerTest.java
+END
+MmsLaunchPerformance.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/MmsLaunchPerformance.java
+END
+InterceptSendSms.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/14/trunk/Mms/tests/src/com/android/mms/InterceptSendSms.java
+END

@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/setting_item_bg_new_30x18"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:text="@string/phone_number_region"
+            android:textSize="@dimen/normal_textsize" />
+
+        <edu.bupt.mms.numberlocate.Switch
+            android:id="@+id/number_region_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/setting_item_bg_new_30x18"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:text="@string/animation_text"
+            android:textSize="@dimen/normal_textsize" />
+
+        <edu.bupt.mms.numberlocate.Switch
+            android:id="@+id/animation_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/setting_item_bg_new_30x18"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/number_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:hint="@string/phone_number_region_search"
+            android:inputType="phone"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/search_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_search"
+            android:gravity="center"
+            android:textSize="@dimen/bigger2_textsize" />
+
+        <TextView
+            android:id="@+id/search_result"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/bigger2_textsize" />
+    </LinearLayout>
+
+</LinearLayout>

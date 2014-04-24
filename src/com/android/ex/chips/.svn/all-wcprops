@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips
+END
+RecipientEditTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/RecipientEditTextView.java
+END
+Queries.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/Queries.java
+END
+BaseRecipientAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/BaseRecipientAdapter.java
+END
+ChipsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/ChipsUtil.java
+END
+RecipientEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/RecipientEntry.java
+END
+SingleRecipientArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/SingleRecipientArrayAdapter.java
+END
+AccountSpecifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/AccountSpecifier.java
+END
+RecipientAlternatesAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/RecipientAlternatesAdapter.java
+END
+RecipientChip.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/14/trunk/Mms/src/com/android/ex/chips/RecipientChip.java
+END

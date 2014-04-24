@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/sms/!svn/ver/192/trunk/Mms/res/menu
+END
+manage_seperate_sim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sms/!svn/ver/175/trunk/Mms/res/menu/manage_seperate_sim.xml
+END
+agenda_multi_select.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sms/!svn/ver/42/trunk/Mms/res/menu/agenda_multi_select.xml
+END
+conversation_list_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/192/trunk/Mms/res/menu/conversation_list_menu.xml
+END
+traditional_list_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/23/trunk/Mms/res/menu/traditional_list_menu.xml
+END
+drop_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/22/trunk/Mms/res/menu/drop_down.xml
+END
+list_select_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/191/trunk/Mms/res/menu/list_select_menu.xml
+END
+sim_manage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sms/!svn/ver/173/trunk/Mms/res/menu/sim_manage.xml
+END
+delete_phr_temp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/177/trunk/Mms/res/menu/delete_phr_temp.xml
+END
+seperate_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/22/trunk/Mms/res/menu/seperate_card.xml
+END
+setting_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sms/!svn/ver/171/trunk/Mms/res/menu/setting_tab.xml
+END
+preference_sim1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/171/trunk/Mms/res/menu/preference_sim1.xml
+END
+conversation_multi_select_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/31/trunk/Mms/res/menu/conversation_multi_select_menu.xml
+END
+preference_sim2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/171/trunk/Mms/res/menu/preference_sim2.xml
+END
+manage_seperate_sim2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sms/!svn/ver/176/trunk/Mms/res/menu/manage_seperate_sim2.xml
+END
+text_past.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sms/!svn/ver/23/trunk/Mms/res/menu/text_past.xml
+END
+multi_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/149/trunk/Mms/res/menu/multi_delete.xml
+END
+phrase_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sms/!svn/ver/190/trunk/Mms/res/menu/phrase_template.xml
+END
+preview_contacts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sms/!svn/ver/181/trunk/Mms/res/menu/preview_contacts.xml
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sms/!svn/ver/62/trunk/Mms/res/menu/test.xml
+END

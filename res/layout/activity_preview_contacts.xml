@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+	
+    <LinearLayout android:id="@+id/fixed_footer"
+    	android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="center_horizontal">
+        <Button android:id="@+id/select_all_preview_multiple" 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" 
+            android:text="全选"
+            
+            android:layout_weight="1"/>
+        <Button android:id="@+id/preview_multiple"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/preview_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fixed_footer"
+        />
+
+</RelativeLayout>

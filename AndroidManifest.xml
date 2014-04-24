@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.bupt.mms" android:versionName="1.04" android:versionCode="4">
+
+    <original-package android:name="edu.bupt.mms" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INSTALL_DRM" />
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+
+    <application
+        android:name="edu.bupt.mms.MmsApp"
+        android:allowTaskReparenting="true"
+        android:icon="@mipmap/ic_launcher_smsmms"
+        android:label="@string/app_label"
+        android:taskAffinity="android.task.mms" >
+        <service
+            android:name="edu.bupt.mms.transaction.TransactionService"
+            android:exported="false" />
+        <service
+            android:name="edu.bupt.mms.transaction.SmsReceiverService"
+            android:exported="false" />
+
+        <activity
+            android:name="edu.bupt.mms.ui.ConversationList"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_label"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.APP_MESSAGING" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/mms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android-dir/mms-sms" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.ComposeMessageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.ConversationList"
+            android:theme="@style/MmsHoloTheme"
+            
+           
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android-dir/mms-sms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="edu.bupt.mms.ui.ForwardMessageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:targetActivity=".ui.ComposeMessageActivity"
+            android:theme="@style/MmsHoloTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity-alias>
+
+        <activity
+            android:name="edu.bupt.mms.ui.ComposeMessageActivityNoLockScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.DeliveryReportActivity"
+            android:label="@string/delivery_report_activity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.ConversationList1"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_label"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.ArrayAdapterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_label"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.ReadSMS"
+            android:label="@string/traditional" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.TraditionalActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="传统模式"
+            android:screenOrientation="portrait"
+            android:theme="@style/MmsHoloTheme"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName=".ui.ConversationList"
+             >
+        </activity>
+
+        <receiver android:name="edu.bupt.mms.ui.TraditionalActivity$fillListViewReceiver" >
+            <intent-filter>
+                <action android:name="edu.bupt.mms.filllistview" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 010 -->
+
+        <activity
+            android:name="edu.bupt.mms.ui.detail"
+            android:label="@string/delivery_report_activity" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.InboxActivity"
+            android:label="@string/delivery_report_activity"
+            android:theme="@style/CalendarTheme.WithActionBar" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.WarnOfStorageLimitsActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/storage_limits_activity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.EditSlideDurationActivity"
+            android:label="@string/change_duration_activity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.SlideshowEditActivity"
+            android:label="@string/edit_slideshow_activity"
+            android:theme="@style/MmsHoloTheme" />
+        <activity
+            android:name="edu.bupt.mms.ui.SlideEditorActivity"
+            android:label="@string/edit_slide_activity"
+            android:theme="@style/MmsHoloTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="edu.bupt.mms.ui.SlideshowActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/slideshow_activity"
+            android:noHistory="true"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.ClassZeroActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/class_0_message_activity"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.MessagingPreferenceActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/preferences_title"
+            android:theme="@style/MmsHoloTheme" />
+
+        <receiver
+            android:name="edu.bupt.mms.transaction.PushReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+            <intent-filter android:priority="10000" >
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="edu.bupt.mms.transaction.MmsSystemEventReceiver" >
+            <intent-filter android:priority="10000" >
+                <action android:name="android.intent.action.CONTENT_CHANGED" />
+            </intent-filter>
+            <intent-filter android:priority="10000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="edu.bupt.mms.ui.ManageSimMessages"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/sim_manage_messages_title"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="edu.bupt.mms.ui.SelectMmsSubscription"
+            android:exported="true" >
+        </service>
+
+        <!-- Require sender permissions to prevent SMS spoofing  我为了修改收短信重复两条的问题 -->
+        <receiver
+            android:name="edu.bupt.mms.transaction.PrivilegedSmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS" >
+            <intent-filter android:priority="10000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Catch-all receiver for broadcasts that don't have associated security -->
+        <receiver android:name="edu.bupt.mms.transaction.SmsReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="edu.bupt.mms.transaction.MESSAGE_SENT" />
+                <!-- TODO Do a better data match here. -->
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="edu.bupt.mms.transaction.SEND_MESSAGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="edu.bupt.mms.transaction.MessageStatusReceiver" >
+            <intent-filter>
+                <action android:name="edu.bupt.mms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="edu.bupt.mms.transaction.MessageStatusService" />
+
+        <receiver android:name="edu.bupt.mms.transaction.SimFullReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SIM_FULL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="edu.bupt.mms.transaction.SmsRejectedReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_REJECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="edu.bupt.mms.ui.ConfirmRateLimitActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="edu.bupt.mms.RATE_LIMIT_SURPASSED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/search"
+            android:theme="@style/MmsHoloTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".ui.SearchActivity" />
+
+        <!-- Search Suggestions Provider -->
+        <provider
+            android:name="edu.bupt.mms.SuggestionsProvider"
+            android:authorities="edu.bupt.mms.SuggestionsProvider"
+            android:readPermission="android.permission.READ_SMS" >
+            <path-permission
+                android:pathPrefix="/search_suggest_query"
+                android:readPermission="android.permission.GLOBAL_SEARCH" />
+            <path-permission
+                android:pathPrefix="/search_suggest_shortcut"
+                android:readPermission="android.permission.GLOBAL_SEARCH" />
+        </provider>
+
+        <service
+            android:name="edu.bupt.mms.ui.NoConfirmationSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_SMS_NO_CONFIRMATION" >
+            <intent-filter>
+                <action android:name="edu.bupt.mms.intent.action.SENDTO_NO_CONFIRMATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="edu.bupt.mms.TempFileProvider"
+            android:authorities="bupt_mms_temp_file1"
+            android:multiprocess="true" />
+
+        <activity android:name="edu.bupt.mms.ui.MiniPreferenceActivity" >
+            <intent-filter>
+                <action android:name="edu.bupt.mms.intent.action.MESSAGING_APP_NOTIFICATIONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Widget -->
+        <receiver
+            android:name="edu.bupt.mms.widget.MmsWidgetProvider"
+            android:label="@string/app_label" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="edu.bupt.mms.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <service
+            android:name="edu.bupt.mms.widget.MmsWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name="edu.bupt.mms.ui.PhraseTemplateActivity"
+            android:label="@string/title_activity_phrase_template"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.DeletePhrTempActivity"
+            android:label="@string/title_activity_delete_phr_temp"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ui.SearchResultActivity"
+            android:label="@string/title_activity_Search_Result"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.SeperateCardActivity"
+            android:label="@string/title_activity_seperate_card" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.DropDownActivity"
+            android:label="@string/title_activity_drop_down" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.CardListActivity"
+            android:label="@string/title_card_list" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.CardDetailActivity"
+            android:label="@string/title_card_detail"
+            android:parentActivityName=".CardListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CardListActivity" />
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.TextPastActivity"
+            android:label="@string/title_activity_text_past"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.AgendaMultiSelect"
+            android:label="@string/title_activity_agenda_multi_select" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.numberlocate.NumberLocateSetting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+
+        
+
+        <provider
+            android:name="edu.bupt.mms.numberlocate.NumberLocateProvider"
+            android:authorities="edu.bupt.mms"
+            android:exported="false" />
+
+        <activity
+            android:name="edu.bupt.mms.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.MultiDeleteActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_multi_delete"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.SettingTabActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/preferences_title"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.PreferenceSim1Activity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/preferences_sim1_title"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.PreferenceSim2Activity"
+            android:label="@string/title_activity_preference_sim2" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.SimManageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/manage_sim_title"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ManageSeperateSim"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/sim_manage_messages_title"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.ManageSeperateSim2"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/sim_manage_messages_title"
+            android:launchMode="singleTop"
+            android:theme="@style/MmsHoloTheme" >
+        </activity>
+        <activity
+            android:name="edu.bupt.mms.PreviewContactsActivity"
+            android:label="@string/title_activity_preview_contacts" 
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/MmsHoloTheme"
+            
+            
+            >
+        </activity>
+    </application>
+
+</manifest>

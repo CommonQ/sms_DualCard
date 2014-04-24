@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <!-- <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_selectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.40"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/bt_cancelselectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.49"
+            android:text="反选" />
+
+        <Button
+            android:id="@+id/bt_deselectall"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end"
+            android:layout_weight="0.24"
+            android:text="取消选择" />
+
+    </LinearLayout> -->
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_marginBottom="50dp" 
+    	android:divider="#a9a9a9"
+    	android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="添加日程" />
+
+</RelativeLayout>

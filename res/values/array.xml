@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="msa">
+     <item>ANT1012_ip:59.64.153.247</item>
+     <item>ANT1012_ip:59.64.153.128</item>
+     <item>ANT1012_ip:59.64.153.247</item>
+     <item>ANT1012_ip:59.64.153.128</item>
+     <item>ANT1012_ip:59.64.153.247</item>
+     <item>ANT1012_ip:59.64.153.128</item>
+     <item>ANT1012_ip:59.64.153.247</item>
+     <item>ANT1012_ip:59.64.153.128</item>
+     <item>ANT1012_ip:59.64.153.247</item>
+     <item>ANT1012_ip:59.64.153.128</item>
+     
+  </string-array>
+  <string-array name="msb">
+     <item>按姓名</item>
+      <item>按号码</item>
+     <item>按内容</item>
+     <item>按日期</item>  
+  </string-array>
+  
+  <string-array name="msc">
+     <item>删除该条短信</item>
+     <item>删除所有短信</item>    
+  </string-array>
+  
+  <string-array name="msd">
+     <item>多条删除</item>
+     <item>拆分短信</item>    
+  </string-array>
+  
+    <string-array name="mse">
+     <item>小</item>
+     <item>标准</item>
+     <item>大</item>    
+  </string-array>
+  
+    
+     <string-array name="msf">
+     <item>全部</item>
+     <item>短信</item> 
+      <item>彩信</item> 
+      <item>卡槽一</item>
+      <item>卡槽二</item>   
+  </string-array>
+    
+    <string-array name="msg">
+     <item>普通</item>
+     <item>交互</item>
+     <item>急</item> 
+      <item>紧急</item>   
+  </string-array>
+  
+      <string-array name="msh">
+     <item>北京时间</item>
+     <item>当地时间</item>
+    
+  </string-array>
+  
+      
+       <string-array name="msi">
+     <item>删除会话</item>
+     <item>多条删除</item>
+    
+  </string-array>
+    
+    
+  
+</resources>

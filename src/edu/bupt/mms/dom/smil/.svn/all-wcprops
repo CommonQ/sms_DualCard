@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil
+END
+ElementParallelTimeContainerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementParallelTimeContainerImpl.java
+END
+SMILRefElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILRefElement.java
+END
+ElementTimeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTimeContainer.java
+END
+TimeListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/TimeListImpl.java
+END
+TimeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/TimeImpl.java
+END
+SMILParElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILParElement.java
+END
+SmilPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilPlayer.java
+END
+SMILRegionMediaElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILRegionMediaElement.java
+END
+SMILRegionElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILRegionElement.java
+END
+SmilDocumentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilDocumentImpl.java
+END
+ElementParallelTimeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementParallelTimeContainer.java
+END
+ElementSequentialTimeContainerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementSequentialTimeContainerImpl.java
+END
+SMILRegionInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILRegionInterface.java
+END
+ElementTimeManipulation.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTimeManipulation.java
+END
+SMILSetElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILSetElement.java
+END
+TimeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/TimeList.java
+END
+SmilRefElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilRefElementImpl.java
+END
+Time.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/Time.java
+END
+SMILTopLayoutElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILTopLayoutElement.java
+END
+SMILAnimateMotionElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILAnimateMotionElement.java
+END
+ElementExclusiveTimeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementExclusiveTimeContainer.java
+END
+SmilParElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilParElementImpl.java
+END
+SMILAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILAnimation.java
+END
+SmilRegionElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilRegionElementImpl.java
+END
+SmilRegionMediaElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilRegionMediaElementImpl.java
+END
+ElementSequentialTimeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementSequentialTimeContainer.java
+END
+ElementSyncBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementSyncBehavior.java
+END
+ElementTargetAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTargetAttributes.java
+END
+ElementTimeControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTimeControl.java
+END
+SMILLayoutElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILLayoutElement.java
+END
+SMILAnimateColorElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILAnimateColorElement.java
+END
+SMILAnimateElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILAnimateElement.java
+END
+SMILMediaElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILMediaElement.java
+END
+SMILElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILElement.java
+END
+SMILRootLayoutElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILRootLayoutElement.java
+END
+ElementLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementLayout.java
+END
+ElementTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTest.java
+END
+ElementTimeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTimeImpl.java
+END
+ElementTimeContainerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTimeContainerImpl.java
+END
+SmilLayoutElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilLayoutElementImpl.java
+END
+SMILSwitchElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILSwitchElement.java
+END
+SmilElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilElementImpl.java
+END
+SmilMediaElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilMediaElementImpl.java
+END
+TimeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/TimeEvent.java
+END
+SmilRootLayoutElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SmilRootLayoutElementImpl.java
+END
+SMILDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/SMILDocument.java
+END
+ElementTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sms/!svn/ver/186/trunk/Mms/src/edu/bupt/mms/dom/smil/ElementTime.java
+END
